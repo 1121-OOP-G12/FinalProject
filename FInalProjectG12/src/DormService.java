@@ -31,6 +31,9 @@ public class DormService {
 		System.out.printf("成功加值，%s的冷氣服務尚有:%.1f元餘額可用。%n",a.getName(),AirConRV);
 	}
 	
+	//物品借用
+	
+	
 	
 	
 
