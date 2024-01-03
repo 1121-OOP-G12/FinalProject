@@ -2,12 +2,13 @@
 public class DormService {
 	private String dormName;
 	private double AirConRV=0;
-	private int dehumidifier; 
+	//private obj dehumidifier;  需要等物件class完成
+	
 	//constructor 從宿舍建立者的角度來配置，冷氣卡要學生自己加值才會有錢用
 	public DormService(String dormName,double AirConRV,int dehumidifier) {
 		this.dormName=dormName;
 		this.AirConRV=AirConRV;
-		this.dehumidifier=dehumidifier;
+		//等待obj物件
 	}
 	//不知道會不會需要用到get
 	public String getName() {
