@@ -24,7 +24,7 @@ public class Service {
 		a2.enroll(stu2);
 		a3.enroll(stu3);
 		b1.borrowItem(dehumidifierB);
-		b2.bookDiscussionRoom(1);
+		b2.bookDiscussionRoom(1, stu5);
 
         System.out.println("Welcome to Dormitory Service System! We're glad to have you on board.");
         System.out.println("Please enter your Student ID, Name, and the dormitory where you reside.");
@@ -174,10 +174,10 @@ public class Service {
                     use = sc.nextInt();
 
                     if (func == 1) {
-                        b.bookDiscussionRoom(use);
+                        b.bookDiscussionRoom(use, stu);
 
                     } else if (func == 2) {
-                        b.leaveDiscussionRoom(use);
+                        b.leaveDiscussionRoom(use, stu);
                     }
                 }
             }
